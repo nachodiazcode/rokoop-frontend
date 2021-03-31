@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootswatch/dist/journal/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-photo-gallery"
+    }
+  },
+  "defaultProject": "angular-photo-gallery",
+  "cli": {
+    "analytics": "bf817277-8d27-48fd-898c-0a802db981a5"
+  }
 }
