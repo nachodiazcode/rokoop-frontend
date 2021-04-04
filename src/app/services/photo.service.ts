@@ -8,7 +8,7 @@ import { Photo } from './../interfaces/photo';
 })
 export class PhotoService {
 
-  URI = 'https://weilaystudio.com:4000/api';
+  public URI = 'https://localhost:4000/api';
 
   constructor(private http: HttpClient) { }
 
@@ -19,7 +19,7 @@ export class PhotoService {
     fd.append('description', description);
     fd.append('image', photo);
 
-    return this.http.post(`${this.URI}/photos`, fd);
+    return this.http.post(`/photos`, fd);
 
   }
 
