@@ -14,7 +14,7 @@ interface HtmlInputEvent extends Event {
 })
 export class PhotoFormComponent implements OnInit {
 
-  file: File;
+  file: any;
   photoSelected: string | ArrayBuffer;
 
   constructor(private ps: PhotoService, private router: Router) { }

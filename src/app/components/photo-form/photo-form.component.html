@@ -12,7 +12,7 @@
             <textarea rows="0" cols="0" class="form-control" placeholder="Photo Description" #description required>
             </textarea >
           </div>
-          <input type="file" class="d-none" (change)="onPhotoSelected($event)" #photoInput>
+          <input type="file"  class="d-none" (change)="onPhotoSelected($event)" #photoInput>
           <img [src]="photoSelected || './../../../assets/no-image-icon.png'" width="" class="img-fluid" alt="no-image-icon" (click)="photoInput.click()">
           <button class="btn btn-primary btn-block">
             Upload

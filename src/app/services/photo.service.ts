@@ -8,18 +8,18 @@ import { Photo } from './../interfaces/photo';
 })
 export class PhotoService {
 
-  public URI = 'https://weilaystudio.com:4000/api';
+  public URI = 'http://localhost:4000/api';
 
   constructor(private http: HttpClient) { }
 
-  createPhoto(title: string, description: string, photo: File) {
+  createPhoto(title: string, description: string, photo: any) {
     const fd = new FormData();
 
     fd.append('title', title);
     fd.append('description', description);
     fd.append('image', photo);
 
-    return this.http.post(`/photos`, fd);
+    return this.http.post(`${this.URI}/photos`, fd);
 
   }
 
@@ -31,12 +31,11 @@ export class PhotoService {
     return this.http.get<Photo>(`${this.URI}/photo/${id}`);
   }
 
-
   deletePhoto(id: string) {
     return this.http.delete(`${this.URI}/photo/${id}`);
   }
 
-  updatePhoto(id: string, title: string, description: string) {
+  updatePhoto(id: string, title: string,  description: string) {
     return this.http.put(`${this.URI}/photo/${id}`, {id, title, description});
   }
 
