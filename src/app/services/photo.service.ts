@@ -8,7 +8,7 @@ import { Photo } from './../interfaces/photo';
 })
 export class PhotoService {
 
-  public URI = 'http://localhost:4000/api';
+  public URI = 'https://weilaystudio.com:4000/api';
 
   constructor(private http: HttpClient) { }
 
