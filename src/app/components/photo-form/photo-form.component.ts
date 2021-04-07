@@ -12,6 +12,7 @@ interface HtmlInputEvent extends Event {
   templateUrl: './photo-form.component.html',
   styleUrls: ['./photo-form.component.css']
 })
+
 export class PhotoFormComponent implements OnInit {
 
   file: any;
