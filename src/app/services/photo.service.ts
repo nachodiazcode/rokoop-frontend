@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
 import { Photo } from './../interfaces/photo';
 
 @Injectable({
@@ -8,7 +7,7 @@ import { Photo } from './../interfaces/photo';
 })
 export class PhotoService {
 
-  public URI = 'http://165.227.121.163';
+  public URI = 'http://localhost:3000/api';
 
   constructor(private http: HttpClient) { }
 
