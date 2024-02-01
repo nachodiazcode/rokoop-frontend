@@ -1,23 +1,31 @@
 {
     "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
     "workbench.colorCustomizations": {
-      "activityBar.activeBackground": "#d04649",
+      "activityBar.activeBackground": "#fa1b4e",
       "activityBar.activeBorder": "#37cb34",
-      "activityBar.background": "#d04649",
-      "activityBar.foreground": "#e7e7e7",
-      "activityBar.inactiveForeground": "#e7e7e799",
-      "activityBarBadge.background": "#37cb34",
-      "activityBarBadge.foreground": "#15202b",
-      "statusBar.background": "#b52e31",
-      "statusBar.foreground": "#e7e7e7",
-      "statusBarItem.hoverBackground": "#d04649",
-      "titleBar.activeBackground": "#b52e31",
-      "titleBar.activeForeground": "#e7e7e7",
-      "titleBar.inactiveBackground": "#b52e3199",
-      "titleBar.inactiveForeground": "#e7e7e799"
+      "activityBar.background": "#fa1b4e",
+      "statusBar.background": "#dd0536",
+      "statusBarItem.hoverBackground": "#fa1b4e",
+      "titleBar.activeBackground": "#dd0536",
+      "titleBar.inactiveBackground": "#dd053699",
+      "editorError.foreground": "#000000ff",
+      "editorGroup.border": "#fa1b4e",
+      "editorInfo.foreground": "#000000ff",
+      "editorWarning.foreground": "#000000ff",
+      "panel.border": "#fa1b4e",
+      "sash.hoverBorder": "#fa1b4e",
+      "sideBar.border": "#fa1b4e",
+      "statusBar.border": "#dd0536",
+      "statusBar.debuggingBackground": "#05ddac",
+      "statusBar.debuggingBorder": "#05ddac",
+      "statusBarItem.remoteBackground": "#dd0536",
+      "tab.activeBorder": "#fa1b4e",
+      "titleBar.border": "#dd0536"
     },
     "workbench.editorAssociations": [
 
 
-    ]
+    ],
+    "jira-plugin.workingProject": "",
+    "peacock.color": "#dd0536"
 }
